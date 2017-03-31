@@ -17,7 +17,7 @@ new Vue({
                 'username': uname,
                 'password': pass
             }).then((response) => {
-                console.log(response.status);
+                console.log(response.data);
             });
         }
     }
